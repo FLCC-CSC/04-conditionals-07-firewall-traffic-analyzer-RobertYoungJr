@@ -16,7 +16,7 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 def main():
     def firewall_analyzer():
-        print("=== Network Traffic Security Analyzer === ")
+        print("=== Network Traffic Security Analyzer ===")
         print()
         port = int(input("Enter the port number (e.g., 80, 22, 443, 3389): "))
         size = int(input("Enter the data transfer size in megabytes (MB): "))
