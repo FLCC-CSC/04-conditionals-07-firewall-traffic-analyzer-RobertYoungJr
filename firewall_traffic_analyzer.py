@@ -29,7 +29,7 @@ def main():
             print("Risk Assestment: MEDIUM RISK: Large unencrypted data transfer detected.")
         elif port == 443: 
             print("Risk Assestment: LOW RISK: Secure encrypted transfer detected.")
-        else:
+        else
             print("Risk Assestment: UNKNOWN: Unrecognized traffic pattern.")
         
     firewall_analyzer()
