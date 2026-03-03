@@ -96,6 +96,7 @@ Risk Assessment: UNKNOWN: Unrecognized traffic pattern.
 
 1. Did you get tripped up using the `or` or `and` operators? If so, how?
 
-no, the hint of the () between the or was a help
+no, the hint of the () between the or was a help along with checking my spelling ;)
 
 
+'''
