@@ -24,13 +24,13 @@ def main():
         print("FIREWALL LOG:")
         print(f'Port: {port}, Transfer Size: {size} MB')
         if (port == 22 or port == 3389) and size >= 100:
-            print("Risk Assestment: HIGH RISK: Potential unauthorized remote access detected!")
+            print("Risk Assessment: HIGH RISK: Potential unauthorized remote access detected!")
         elif port == 80 and size > 100:
-            print("Risk Assestment: MEDIUM RISK: Large unencrypted data transfer detected.")
+            print("Risk Assessment: MEDIUM RISK: Large unencrypted data transfer detected.")
         elif port == 443: 
-            print("Risk Assestment: LOW RISK: Secure encrypted transfer detected.")
+            print("Risk Assessment: LOW RISK: Secure encrypted transfer detected.")
         else:
-            print("Risk Assestment: UNKNOWN: Unrecognized traffic pattern.")
+            print("Risk Assessment: UNKNOWN: Unrecognized traffic pattern.")
     firewall_analyzer()
 main()
 
